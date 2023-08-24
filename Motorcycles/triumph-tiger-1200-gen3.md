@@ -13,6 +13,7 @@
 - *Bit 5:* Unknown
 - *Bit 6:* Unknown
 - *Bit 7:* Unknown
+- *Bit 8:* Unknown
 
 #### Byte 2
 
@@ -23,6 +24,7 @@
 - *Bit 5:* Unknown
 - *Bit 6:* Unknown
 - *Bit 7:* Joystick Down (high on press)
+- *Bit 8:* Unknown
 
 #### Byte 3
 
@@ -33,3 +35,4 @@
 - *Bit 5:* Headlight Pass / Flash (high on press)
 - *Bit 6:* Unknown
 - *Bit 7:* Unknown
+- *Bit 8:* Unknown
