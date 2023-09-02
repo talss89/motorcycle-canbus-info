@@ -76,7 +76,7 @@ The buttons seem to have 2 bits (or a *crumb*) allocated. They shift left on pre
 - *Bit 1:* Indicator / Turn Signal Right (Set inactive)
 - *Bit 2:* Indicator / Turn Signal Right (Set active)
 - *Bit 3:* Rider Heated Seat (Set inactive)
-- *Bit 4:* Rider Heated Seaat (Set active)
+- *Bit 4:* Rider Heated Seat (Set active)
 - *Bit 5:* Mode (Set inactive)
 - *Bit 6:* Mode (Set active)
 - *Bit 7:* Unknown
