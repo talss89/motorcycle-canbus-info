@@ -14,7 +14,7 @@ The bike has a single bus. The following physical modules are connected to it:
 - ABS Modulator
 - Inertial Measurement Unit (IMU)
 - Front Light Unit
-- Electronic Steering Lock (this also has an additional non-canbus connection to the Chassis ECM, and Dashboard - possible safety lockout?)
+- Electronic Steering Lock
 
 ## CAN IDs
 
@@ -26,9 +26,9 @@ Source: `ABS Modulator`
 
 ### 0x500 [? Bytes] - Brake Light & Noisy Data
 
-Source: `Chassis ECM`
+Source: `?`
 
-Byte 4, bit 3 appears to go high when either brake activates brake light. Suggest that module controlling brake LED is listening to this packet.
+Byte 4, bit 3 appears to get set when brake light is activated.
 
 ---
 
