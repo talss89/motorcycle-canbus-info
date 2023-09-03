@@ -1,4 +1,4 @@
-# 2018 - 2021 Triumph Tiger 1200
+# 2017 - 2021 Triumph Tiger 1200 Gen 3
 
 Incomplete list, these are just sniffing notes as I work on the bus.
 
@@ -17,6 +17,8 @@ The bike has a single bus. The following physical modules are connected to it:
 - Electronic Steering Lock
 
 ## CAN IDs
+
+Lower IDs will win arbitration in the event of a collision. Systems that are safety-critical and/or require low latency in response to bus inputs (eg. ABS Modulator) should have a lower ID than say, handlebar controls.
 
 ### 0x210 [? Bytes] - Brake Pressure & ?
 
