@@ -36,7 +36,11 @@ Byte 4, bit 3 appears to get set when brake light is activated.
 
 Source: `Chassis ECM`
 
-The buttons seem to have 2 bits (or a *crumb*) allocated. They shift left on press, or 1 == inactive, 2 == pressed.
+The buttons each are allocated 2 bits (or a *crumb*). They shift left on press, or 1 == inactive, 2 == pressed.
+
+> :thinking: **Possibility**
+> 
+> From the wiring diagram, it seems that the switchgear -> chassis ECM is via LIN. This could explain why 2 bits are used for each button state. Perhaps this is so the chassis ECM can detect tri state - `On / Off / Fault`.
 
 #### Byte 1
 
