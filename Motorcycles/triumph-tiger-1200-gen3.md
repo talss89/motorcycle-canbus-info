@@ -40,6 +40,8 @@ Source: `Chassis ECM`
 
 The buttons each are allocated 2 bits (or a *crumb*). They shift left on press, or 1 == inactive, 2 == pressed.
 
+Headlight main / DRL is also on bytes 0-3, but I forgot to note the bits. Will update.
+
 > :thinking: **Possibility**
 > 
 > From the wiring diagram, it seems that the switchgear -> chassis ECM is via LIN. This could explain why 2 bits are used for each button state. Perhaps this is so the chassis ECM can detect tri state - `On / Off / Fault`.
