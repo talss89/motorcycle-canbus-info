@@ -97,7 +97,7 @@ Headlight main / DRL and horn is also on bytes 0-3, but I forgot to note the bit
 Thank you to `T800XC` on the forum at https://www.tiger-explorer.com for this information.
 
 - *Byte 1:* **Tyre** `00` = Front Tyre, `10` = Rear Tyre 
-- *Byte 2:* **Pressure (PSI * 5)** `val * / 5 == psi`
+- *Byte 2:* **Pressure (PSI * 5)** `val / 5 == psi`
 - *Byte 3:* **Temperature (ºC + 50)** `val - 50 = ºC`
 - *Byte 4(0:3)* **Status** `0` = Stable, `2` = Rising Pressure, `3` = Falling Pressure
 - *Byte 4(4:7)* **Status** `0` = Battery OK, `7` = No Battery Signal, `8` = Low Battery
