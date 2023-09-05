@@ -103,7 +103,7 @@ Thank you to `T800XC` on the forum at https://www.tiger-explorer.com for this in
 - *Byte 4(4:7)* **Status** `0` = Battery OK, `7` = No Battery Signal, `8` = Low Battery
 - *Byte 5:* **Unused** `00`
 - *Byte 6+7 (uint16_t):* **Data Counter** Increments on each transmission, reset to `0x0000` when temperature or pressure changes
-- *Byte 8(0:3)* **Fault Status** `0` = OK, `2` = No Comms, `8` = Leak
+- *Byte 8(0:3)* **Fault Status** `0` = OK, `4` = No Comms, `8` = Leak
 - *Byte 8(4:7)* **Fault Status** `A` = TPMS Warning Light On, `C` = TPMS Warning Light Off
 
 > If psi increases, stays level or decreases, need to change status byte high nibble to suit.
